@@ -1,0 +1,21 @@
+{
+    "name": "thiagotalma/yii2-onesignal",
+    "description": "Yii2 component for OneSignal.com integration",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","onesignal","notification"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Thiago Talma",
+            "email": "thiago@thiagomt.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "talma\\onesignal\\": ""
+        }
+    }
+}
