@@ -2,7 +2,12 @@
     "name": "thiagotalma/yii2-onesignal",
     "description": "Yii2 component for OneSignal.com integration",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","onesignal","notification"],
+    "keywords": [
+        "yii2",
+        "extension",
+        "onesignal",
+        "notification"
+    ],
     "license": "Apache-2.0",
     "authors": [
         {
@@ -11,7 +16,9 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*"
+        "php": ">=7.0",
+        "yiisoft/yii2": "^2.0",
+        "guzzlehttp/guzzle": "~6.0"
     },
     "autoload": {
         "psr-4": {
